@@ -12,10 +12,10 @@ focusing on modern design principles and smooth user experiences.
 - 📅 Modernized reservation form
 - 💬 Carousel-style testimonial display
 
-Our design emphasizes beauty and functionality without relying heavily on images. We've carefully considered browser compatibility to ensure a seamless experience across devices.
+design emphasizes beauty and functionality without relying heavily on images. We've carefully considered browser compatibility to ensure a seamless experience across devices.
 
 ## Preview
 
-Check out our design in action:
+Check out design in action:
 
 https://github.com/user-attachments/assets/61741025-c9fa-4210-a9c9-aafaffae13a4
