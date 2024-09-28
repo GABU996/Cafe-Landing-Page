@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - A Cozy Place for Great Food & Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="assets/Images/logo.jpeg" alt="Café Delight Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Café Delight</h1>
+            <h2>A cozy place to enjoy great food & coffee</h2>
+            <button>View Menu</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about mythical-about" id="about">
+        <div class="section-separator top"></div>
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Us</h2>
+                <p class="lead">Welcome to Café Delight, where every cup tells a story.</p>
+                <p>Nestled in the heart of the city, Café Delight is more than just a coffee shop – it's a haven for coffee lovers and food enthusiasts alike. Our journey began with a simple dream: to create a space where people could come together, savor exceptional coffee, and enjoy delicious food in a warm, inviting atmosphere.</p>
+                <p>At Café Delight, we believe that great coffee is an art form. That's why we source only the finest beans from around the world and roast them to perfection in-house. Our skilled baristas are passionate about their craft, ensuring that every cup we serve is a testament to our commitment to quality.</p>
+                <p>But we're not just about coffee. Our menu features a delightful array of freshly prepared sandwiches, salads, and baked goods, all made with locally sourced ingredients whenever possible. Whether you're stopping by for a quick breakfast, a leisurely lunch, or an afternoon pick-me-up, we have something to satisfy every craving.</p>
+                <p>More than anything, we value our community. Café Delight is a place where friendships are forged, ideas are born, and memories are made. We're proud to be a part of this vibrant neighborhood and strive to give back through various local initiatives and partnerships.</p>
+                <p>Thank you for being a part of our story. We look forward to serving you and creating many more delightful moments together.</p>
+            </div>
+            <div class="about-image">
+                <img src="assets/Images/about.jpeg" alt="Café Delight Interior">
+            </div>
+        </div>
+        <div class="mythical-elements">
+            <div class="floating-element" id="about-element1"></div>
+            <div class="floating-element" id="about-element2"></div>
+            <div class="floating-element" id="about-element3"></div>
+        </div>
+        <div class="section-separator bottom"></div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu mythical-menu" id="menu">
+        <div class="section-separator top"></div>
+        <div class="menu-content">
+            <h2 class="section-title">Menu</h2>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="appetizers">Appetizers</button>
+                <button class="menu-tab" data-category="mains">Main Courses</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-categories">
+                <div class="menu-category active" id="appetizers">
+                    <div class="menu-item">
+                        <h3>Tomato Bruschetta</h3>
+                        <p>Toasted bread topped with fresh tomatoes, garlic, and basil</p>
+                        <span class="price">$9</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Spicy Chicken Wings</h3>
+                        <p>Crispy chicken wings tossed in our signature hot sauce</p>
+                        <span class="price">$12</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Crispy Calamari</h3>
+                        <p>Tender squid rings, lightly battered and served with garlic aioli</p>
+                        <span class="price">$11</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Sautéed Mushrooms</h3>
+                        <p>Wild mushrooms sautéed in garlic butter with fresh herbs</p>
+                        <span class="price">$10</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Loaded Nachos</h3>
+                        <p>Crispy tortilla chips topped with melted cheese, jalapeños, and salsa</p>
+                        <span class="price">$13</span>
+                    </div>
+                </div>
+                <div class="menu-category" id="mains">
+                    <div class="menu-item">
+                        <h3>Grilled Ribeye Steak</h3>
+                        <p>Prime cut ribeye, grilled to perfection, served with mashed potatoes</p>
+                        <span class="price">$28</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Seafood Paella</h3>
+                        <p>Traditional Spanish rice dish with a medley of fresh seafood</p>
+                        <span class="price">$26</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Roasted Vegetable Platter</h3>
+                        <p>Seasonal vegetables roasted with herbs and served with quinoa</p>
+                        <span class="price">$22</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Gourmet Burger</h3>
+                        <p>Angus beef patty with cheese, bacon, and house-made sauce on a brioche bun</p>
+                        <span class="price">$18</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chicken Risotto</h3>
+                        <p>Creamy arborio rice with tender chicken, peas, and parmesan</p>
+                        <span class="price">$24</span>
+                    </div>
+                </div>
+                <div class="menu-category" id="desserts">
+                    <div class="menu-item">
+                        <h3>Fresh Fruit Parfait</h3>
+                        <p>Layers of yogurt, granola, and seasonal fruits</p>
+                        <span class="price">$10</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Rich chocolate cake with a gooey center, served with vanilla ice cream</p>
+                        <span class="price">$12</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Ice Cream Sundae</h3>
+                        <p>Three scoops of ice cream with your choice of toppings</p>
+                        <span class="price">$11</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Assorted Mini Donuts</h3>
+                        <p>Freshly made donuts with various glazes and toppings</p>
+                        <span class="price">$9</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Seasonal Fruit Tart</h3>
+                        <p>Buttery pastry crust filled with custard and topped with fresh fruits</p>
+                        <span class="price">$13</span>
+                    </div>
+                </div>
+                <div class="menu-category" id="drinks">
+                    <div class="menu-item">
+                        <h3>Espresso</h3>
+                        <p>A shot of our rich, house-blend espresso</p>
+                        <span class="price">$3</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso topped with steamed milk and a generous layer of foam</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Caramel Macchiato</h3>
+                        <p>Espresso with steamed milk, vanilla syrup, and caramel drizzle</p>
+                        <span class="price">$5</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Iced Coffee</h3>
+                        <p>Our smooth cold brew served over ice</p>
+                        <span class="price">$4</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chai Latte</h3>
+                        <p>Spiced black tea with steamed milk and a touch of honey</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mythical-elements">
+            <div class="floating-element" id="menu-element1"></div>
+            <div class="floating-element" id="menu-element2"></div>
+            <div class="floating-element" id="menu-element3"></div>
+        </div>
+        <div class="section-separator bottom"></div>
+    </section>
+
+    <!-- Contact/Location Section -->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2 class="section-title">Find Us</h2>
+            <div class="contact-grid">
+                <div class="contact-card address">
+                    <div class="card-content">
+                        <h3>Address</h3>
+                        <p>123 Café Street</p>
+                        <p>Foodie City, FC 12345</p>
+                        <p>Gourmet Country</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <div class="contact-card hours">
+                    <div class="card-content">
+                        <h3>Hours</h3>
+                        <p>Monday - Friday: 7am - 10pm</p>
+                        <p>Saturday: 8am - 11pm</p>
+                        <p>Sunday: 8am - 9pm</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                </div>
+                <div class="contact-card contact-info">
+                    <div class="card-content">
+                        <h3>Contact</h3>
+                        <p>Phone: (123) 456-7890</p>
+                        <p>Email: hello@cafédelight.com</p>
+                        <p>Instagram: @cafédelight</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="reservation-content">
+            <h2 class="section-title">Reserve Your Experience</h2>
+            <div class="reservation-form-container">
+                <form id="reservation-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="form-icon"><i class="fas fa-user"></i></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                        <div class="form-icon"><i class="fas fa-envelope"></i></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                            <label for="date">Date</label>
+                            <div class="form-icon"><i class="fas fa-calendar"></i></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="time" name="time" required>
+                            <label for="time">Time</label>
+                            <div class="form-icon"><i class="fas fa-clock"></i></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="guests" name="guests" min="1" max="10" required>
+                        <label for="guests">Number of Guests</label>
+                        <div class="form-icon"><i class="fas fa-users"></i></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="special-requests" name="special-requests" rows="3"></textarea>
+                        <label for="special-requests">Special Requests (Optional)</label>
+                        <div class="form-icon"><i class="fas fa-comment"></i></div>
+                    </div>
+                    <button type="submit" class="btn-reserve">Reserve Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="mythic-elements">
+            <div class="floating-element" id="element1"></div>
+            <div class="floating-element" id="element2"></div>
+            <div class="floating-element" id="element3"></div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-separator top"></div>
+        <div class="testimonial-content">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card active">
+                    <p class="testimonial-text">"The coffee at Café Delight is simply outstanding. The ambiance is perfect for both work and relaxation. It's become my go-to spot in the city!"</p>
+                    <p class="testimonial-author">- Sarah Johnson</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I love the variety of pastries they offer. Everything is always fresh and delicious. The staff is friendly and the service is quick."</p>
+                    <p class="testimonial-author">- Michael Chen</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As a coffee enthusiast, I can confidently say that Café Delight serves some of the best espresso in town. Their latte art is also impressive!"</p>
+                    <p class="testimonial-author">- Emma Rodriguez</p>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="prev-btn" aria-label="Previous testimonial">&lt;</button>
+                    <button class="next-btn" aria-label="Next testimonial">&gt;</button>
+                </div>
+            </div>
+        </div>
+        <div class="section-separator bottom"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="mythical-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/Images/logo.jpeg" alt="Café Delight Logo">
+            </div>
+            <div class="footer-nav">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Café Street, Foodie City</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@cafedelight.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Café Delight. All rights reserved.</p>
+        </div>
+        <div class="mythical-elements">
+            <div class="floating-element" id="footer-element1"></div>
+            <div class="floating-element" id="footer-element2"></div>
+            <div class="floating-element" id="footer-element3"></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
